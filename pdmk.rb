@@ -8,9 +8,9 @@ class Pdmk < Formula
   end
 
   def caveats
-    msg = <<-EOF.undent
+    msg = <<-EOS
       If you use pdmk template directory (common), you need to make directory at ~/.pdmk/template
-    EOF
+    EOS
   end
 
 end
