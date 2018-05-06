@@ -1,10 +1,9 @@
 require "formula"
 
 class Pdmk < Formula
-  url "https://github.com/atpons/pdmk/archive/v1.0.tar.gz"
+  url "https://github.com/atpons/pdmk/archive/v1.0.tar.gz", :tag => "v1.0"
   homepage "https://github.com/atpons/pdmk"
-  sha1 "2c89a0d11a5b4885729e0388dc3845f9a42a2431"
-
+  
   def install
     bin.install "pdmk"
   end
