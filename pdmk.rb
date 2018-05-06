@@ -9,7 +9,7 @@ class Pdmk < Formula
 
   def caveats
     msg = <<-EOS
-      If you use pdmk template directory (common), you need to make directory at ~/.pdmk/template
+      ⚠️ If you use pdmk template directory (common), you need to make directory at ~/.pdmk/template
     EOS
   end
 
