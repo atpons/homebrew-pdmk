@@ -1,5 +1,5 @@
 class Pdmk < Formula
-  url "https://github.com/atpons/pdmk/archive/v1.0.tar.gz", :tag => "v1.0"
+  url "https://github.com/atpons/pdmk/archive/v1.0.tar.gz"
   homepage "https://github.com/atpons/pdmk"
   
   def install
