@@ -1,7 +1,7 @@
 class Pdmk < Formula
-  url "https://github.com/atpons/pdmk/archive/v1.1.tar.gz"
+  url "https://github.com/atpons/pdmk/archive/v1.1.1.tar.gz"
   homepage "https://github.com/atpons/pdmk"
-  sha256 "7567ff500b77697cbeaf88b050b0848f0444d03c0cd51c27563b25968e4a0186"
+  sha256 "77d3863bf0e43a84eb14d3914151589f4f33be464d9388c9e058608a67dcbff3"
 
   def install
     bin.install "pdmk"
